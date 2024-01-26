@@ -14,7 +14,11 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
       <Nav />
+      
+        <main className="centrar">
         {children}
+        </main>
+      
       <Footer />
         </body>
     </html>
