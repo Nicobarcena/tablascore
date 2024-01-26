@@ -6,7 +6,7 @@ const Contacto = () => {
     <h1>Iniciar Sesion</h1>
     <form name="contacto" hidden data-netlify="true" netlify-honeypot="bot-field">
         <input type="text" name="usuario" />
-        <input type="password" name="contraseña" />
+        <input type="email" name="contraseña" />
         <textarea name="comentarios"></textarea>
             </form>
     
@@ -17,7 +17,7 @@ const Contacto = () => {
       </label>
       <label>
         Contraseña:
-        <input type="password" name='contraseña' />
+        <input type="email" name='contraseña' />
       </label>
       <label>
                     Comentarios:
