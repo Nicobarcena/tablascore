@@ -4,10 +4,10 @@ const Contacto = () => {
   return (
     <>
     <h1>Iniciar Sesion</h1>
-    <form name='contacto' hidden data-netlify="true" netlifly-honeypot="bot-field">
-    <input type="text" name='usuario' />
-    <input type="password" name='contraseña' />
-    </form>
+    <form name="contacto" hidden data-netlify="true" netlify-honeypot="bot-field">
+        <input type="text" name="usuario" />
+        <input type="password" name="contraseña" />
+            </form>
     
     <form method='post' className="formulario">
       <label>
