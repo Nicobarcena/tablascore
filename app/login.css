@@ -1,0 +1,22 @@
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    height: 48px;
+    width: 200px;
+    margin: 48px auto;
+    padding-top: 24px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    background-color: yellow;
+    padding: auto;  
+}
