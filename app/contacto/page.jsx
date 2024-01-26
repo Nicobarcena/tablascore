@@ -7,6 +7,7 @@ const Contacto = () => {
     <form name="contacto" hidden data-netlify="true" netlify-honeypot="bot-field">
         <input type="text" name="usuario" />
         <input type="password" name="contraseña" />
+        <textarea name="comentarios"></textarea>
             </form>
     
     <form method='post' className="formulario">
@@ -18,6 +19,10 @@ const Contacto = () => {
         Contraseña:
         <input type="password" name='contraseña' />
       </label>
+      <label>
+                    Comentarios:
+                    <textarea name="comentarios"></textarea>
+                </label>
       <input type="hidden" name='form-name' value="usuario" />
       
       <input type="submit" value="Ingresar" />
